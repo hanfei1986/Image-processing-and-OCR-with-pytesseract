@@ -1,4 +1,4 @@
-# Image-processing-and-OCR-with-tesseract
+# Image-processing-and-optical-character-recognition-with-tesseract
 This Python program is used to pre-process images and recognize characters in them (OCR) with pytesseract in a batch-processing way.
 
 ![1](https://github.com/hanfei1986/Image-processing-and-OCR-with-pytesseract/assets/59255164/89b14a39-e009-44b9-b9e5-202b98747c42)
