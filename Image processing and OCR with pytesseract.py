@@ -35,7 +35,7 @@ def pre_process(image_path, binarization_shreshold):
 
     return image
 
-pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 script_path = os.path.abspath(__file__)
 script_directory = os.path.dirname(script_path)
