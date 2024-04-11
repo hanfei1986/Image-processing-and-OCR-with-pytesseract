@@ -1,1 +1,4 @@
 pytesseract==0.3.10
+
+Install Tesseract-OCR:
+Download Tesseract-OCR from https://github.com/UB-Mannheim/tesseract/wiki and install it
