@@ -35,7 +35,11 @@ def pre_process(image_path, binarization_shreshold):
 
     return image
 
-path = 'C:/Users/fhan/Desktop/Pictures\*.*'
+pytesseract.pytesseract.tesseract_cmd = r'C:/Program Files/Tesseract-OCR/tesseract.exe'
+
+script_path = os.path.abspath(__file__)
+script_directory = os.path.dirname(script_path)
+path = script_directory+'/Pictures\*.*'
 filenames = []
 image_formats = []
 texts = []
@@ -56,4 +60,4 @@ df = pd.DataFrame()
 df['Filename'] = filenames
 df['Image Format'] = image_formats
 df['Text'] = texts
-df.to_excel('C:/Users/fhan/Desktop/Pictures/OCR_result.xlsx', index=False)
+df.to_excel(script_directory+'/Pictures/OCR_result.xlsx', index=False)
